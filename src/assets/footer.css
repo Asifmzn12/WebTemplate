@@ -1,0 +1,25 @@
+#box-3{
+    width: 19px !important;
+}
+.footernav li a{
+transition: all 0.3s ease-in;
+cursor: pointer;
+}
+.footernav li a:hover{
+    text-decoration: underline !important;
+    color: rgb(144, 144, 158) !important;
+
+}
+.icons svg{
+    transition: all 0.2s ease-in;
+}
+.icons svg:hover{
+    transform: scale(0.9);
+}
+.contentBox{
+    transition: all 0.2s ease-in;
+}
+.contentBox:hover {
+transform: translateY(-10px);
+
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+  --hero-fontfamily:"DM Sans", sans-serif;
+
+
+
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+p{
+  margin: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family: var(--hero-fontfamily);
+  background: var(--light-color);
+  color: var(--dark-color);
+  font-size: 17px;
+  line-height: 1.6;
+  padding-top: 70px !important;
+}
+
+.img-box {
+  margin: 0px 40px; /* Adjust the value to set the desired spacing */
+  
+}
+.img-box {
+  padding: 10px 10px; 
+  
+}
+.img-box img{
+  max-width: 60px;
+}
+.img-box{
+  box-shadow: 0px 0px 6px 5px rgba(0,0,0,0.2);
+  border-radius: 50px !important;
+}
+.cardimg {
+
+  display: table;
+
+ 
+  width: 103px;
+  height: 103px;
+  line-height: 95px;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px #fff solid;
+  -moz-box-shadow: inset 0 0 13px rgba(0, 0, 0, .4);
+  -webkit-box-shadow: inset 0 0 13px rgba(0, 0, 0, .4);
+  box-shadow: inset 0 0 13px rgba(0, 0, 0, .4);
+
+}
+
+.bg-gray{
+  background-color: #f2f2f2;
+  color: #000 !important;
+  padding: 50px 0px;
+}
+.bg-footergray{
+  background-color: #f2f2f2;
+  color: #000 !important;
+  
+}

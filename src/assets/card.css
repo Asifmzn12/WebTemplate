@@ -1,0 +1,14 @@
+.card-box{
+    position: relative;
+    top: -50px;
+    background-color: #fff;
+
+}
+.form-select{
+    border: none !important;
+    padding-left: 1px;
+}
+.input-box{
+padding-left: 1px !important;
+border:none  !important;
+}
