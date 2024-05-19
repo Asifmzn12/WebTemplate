@@ -165,10 +165,14 @@ border-bottom: 1px solid rebeccapurple;
 
 .servicesCard:hover {
   background-color: var(--main-color);
-  color: #ffff;
+  color:#fff !important;
+ 
   transform: translateY(-5px);
 }
+.servicesCard:hover .site-subtitle-text{
+  color:#fff !important
 
+}
 .servicebox1{
   background-color: #2e6611;
   color: #ffff;
