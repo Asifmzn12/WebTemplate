@@ -311,3 +311,17 @@ border-bottom: 1px solid rebeccapurple;
     position: relative;
 
 }
+.testimonial-item .testimonial-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  border: 6px solid #f4f4f4;
+  margin-right: 10px;
+}
+
+.stars svg {
+  color: #ffc107;
+}
+.swiper-pagination-bullet {
+  background-color: #ffc107 !important;
+}

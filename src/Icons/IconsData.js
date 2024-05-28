@@ -1,7 +1,6 @@
-import { FaPaintbrush, FaDesktop, FaCartPlus, FaGlobe, FaMobileScreenButton, FaGoogle } from "react-icons/fa6";
+import { FaPaintbrush, FaDesktop,  FaMobileScreenButton, FaGoogle } from "react-icons/fa6";
 import { FaCogs } from "react-icons/fa";
 
-import { HiUserGroup } from "react-icons/hi2";
 
 
 export const Icons = {
@@ -104,59 +103,46 @@ export const Icons = {
             id: 1,
             icons: FaPaintbrush,
             title: "Web Designing",
-            background:"servicebox1"
+            background:"servicebox1",
+            para:"Crafting digital experiences tailored to your brand's essence, fostering engagement and growth in the online realm."
 
         },
         {
             id: 2,
             icons: FaDesktop,
             title: "Website Development",
-            background:"servicebox2"
+            background:"servicebox2",
+            para:"Building bespoke digital platforms that reflect your brand's identity, driving online success with user-focused design and functionality."
 
         },
-
         {
             id: 3,
-            icons: FaCartPlus,
-            title: "Content Management",
-            background:"servicebox3"
+            icons: FaGoogle,
+            title: "Responsive Design",
+            background:"servicebox8",
+            para:"Crafting responsive designs for your website, guaranteeing accessibility and engagement across all device."
 
         },
+            
+      
         {
             id: 4,
-            icons: HiUserGroup,
-            title: "Social Media Marketing",
-            background:"servicebox4"
+            icons: FaMobileScreenButton,
+            title: "Website Maintinance",
+            background:"servicebox6",
+            para:"Providing ongoing support and updates to ensure websites remain secure, up-to-date, and functional.."
+
 
         },
         {
             id: 5,
-            icons: FaGlobe,
-            title: "CMS Development",
-            background:"servicebox5"
-
-        },
-        {
-            id: 6,
-            icons: FaMobileScreenButton,
-            title: "Website Maintinance",
-            background:"servicebox6"
-
-        },
-        {
-            id: 7,
             icons: FaCogs,
             title: "Domain and Hosting",
-            background:"servicebox7"
+            background:"servicebox7",
+            para:"Providing domain and hosting solutions for a seamless online presence, letting you focus on your business goals hassle-free."
 
         },
-        {
-            id: 8,
-            icons: FaGoogle,
-            title: "Google Advisertment",
-            background:"servicebox8"
-
-        },
+       
 
 
 
@@ -171,20 +157,20 @@ export const Icons = {
         {
             id: 2,
             class: "contentBox Imgbox2",
-            title: "SEO Services"
+            title: "Website Development "
 
         },
 
         {
             id: 3,
             class: "contentBox Imgbox3",
-            title: "Management"
+            title: "Responsive Design"
 
         },
         {
             id: 4,
             class: "contentBox Imgbox4",
-            title: "Marketing"
+            title: "Website Maintinance"
 
         }
 
@@ -314,6 +300,32 @@ export const Icons = {
     ],
 
 
-
+     Images: [
+        {
+            id: 1,
+            path: 'images/pic1.png',
+        },
+        {
+            id: 2,
+            path: 'images/pic2.png',
+        },
+        {
+            id: 3,
+            path: 'images/pic3.png',
+        },
+        {
+            id: 4,
+            path: 'images/pic4.png',
+        },
+        {
+            id: 5,
+            path: 'images/pic5.png',
+        },
+        {
+            id: 6,
+            path: 'images/pic6.png',
+        }
+    
+    ]
 
 };
