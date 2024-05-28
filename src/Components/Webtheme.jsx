@@ -39,7 +39,7 @@ function Webtheme() {
                         <div className="cntr">
                             <div className="scrolling-text-bex">
                                 <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Uiux design service" />
-                                <h3>Branding</h3>
+                                <h3>Landing Page Development</h3>
                             </div>
                             <div className="scrolling-text-bex">
                                 <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="frontend development services" />
@@ -47,11 +47,11 @@ function Webtheme() {
                             </div>
                             <div className="scrolling-text-bex">
                                 <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Web designer India" />
-                                <h3>Social Media Marketing</h3>
+                                <h3>Website Development</h3>
                             </div>
                             <div className="scrolling-text-bex">
                                 <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Expert Web designer" />
-                                <h3>Branding</h3>
+                                <h3>Seo Service</h3>
                             </div>
                             <div className="scrolling-text-bex">
                                 <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Frontend services" />
@@ -59,32 +59,20 @@ function Webtheme() {
                             </div>
                             <div className="scrolling-text-bex">
                                 <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Top rated frontend developer" />
-                                <h3>Social Media Marketing</h3>
+                                <h3>Landing Page Development</h3>
                             </div>
-                            <div className="scrolling-text-bex">
-                                <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Frontend and Web Design Services" />
-                                <h3>Branding</h3>
-                            </div>
+                           
                             <div className="scrolling-text-bex">
                                 <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Expert web designer India" />
                                 <h3>Web Design</h3>
                             </div>
-                            <div className="scrolling-text-bex">
-                                <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Best Frontend Developer" />
-                                <h3>Social Media Marketing</h3>
-                            </div>
-                            <div className="scrolling-text-bex">
-                                <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Best Frontend Developer India" />
-                                <h3>Branding</h3>
-                            </div>
+                          
+                            
                             <div className="scrolling-text-bex">
                                 <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Best Web Designer" />
-                                <h3>Web Design</h3>
+                                <h3>Website Development</h3>
                             </div>
-                            <div className="scrolling-text-bex">
-                                <img src="https://www.createdbymunish.com/images/text-divider-shap.svg" alt="Best Web Designer India" />
-                                <h3>Social Media Marketing</h3>
-                            </div>
+                           
                         </div>
                     </div>
                 </div>

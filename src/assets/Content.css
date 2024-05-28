@@ -34,7 +34,7 @@
 }
 
 .contentBox {
-  background-image: url("./images/webdesign.webp"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-image: url("./public/images/webdesign.webp"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
   background-blend-mode: overlay;
   height: 320px;
   background-position: center;
@@ -69,24 +69,24 @@
 }
 
 .Imgbox2 {
-  background-image: url("./images/seoservices.webp"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+  background-image: url("./public/images/seoservices.webp"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
   transition: all 0.3s ease-in;
 }
 
 .Imgbox3 {
-  background-image: url("./images/dgmarketing.webp"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+  background-image: url("./public/images/dgmarketing.webp"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
   transition: all 0.3s ease-in;
 }
 
 .Imgbox4 {
-  background-image: url("./images/Mantinance.webp"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) !important;
+  background-image: url("./public/images/Mantinance.webp"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) !important;
  transition: all 0.3s ease-in;
 
 }
 
 .bg-img {
   position: relative;
-  background-image: url("./images/aboutimage.webp");
+  background-image: url("./public/images/aboutimage.webp");
   background-position: center;
   background-size: cover;
   height: 600px;

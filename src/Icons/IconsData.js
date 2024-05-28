@@ -110,7 +110,7 @@ export const Icons = {
         {
             id: 2,
             icons: FaDesktop,
-            title: "SEO Services",
+            title: "Website Development",
             background:"servicebox2"
 
         },
@@ -118,7 +118,7 @@ export const Icons = {
         {
             id: 3,
             icons: FaCartPlus,
-            title: "Management",
+            title: "Content Management",
             background:"servicebox3"
 
         },
