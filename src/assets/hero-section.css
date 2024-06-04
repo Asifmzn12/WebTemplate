@@ -6,6 +6,7 @@
     --light-color: #FAFAF5; 
     --secondary-color: #dcd4c0;
 
+
     /* FONT SIZE */
     --site-title-h1: 70px;
     --site-title-h2: 26px;
@@ -28,12 +29,15 @@
     font-family: var(--hero-fontfamily);
     margin-bottom: 10px;
     color:var(--main-color);
+    scroll-behavior: smooth;
+    touch-action: pan-x;
 }
 .site-hero h1 {
     font-size: 46px;
     line-height: 1.2;
 }
 .site-btn-outline {
+    position: relative;
     display: inline-block;
     padding: 12px 24px;
     border: 1px solid var(--dark-color);
@@ -45,6 +49,26 @@
     transition: all .4s;
     font-family: var(--hero-fontfamily);
     text-decoration: none;
+    
+}
+.site-btn-outline:hover{
+   color: #fff;
+   background-color: #bb5c30;
+
+}
+.site-btn-outline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #bb5c30;
+    z-index: -1;
+    transition: width 0.4s;
+}
+.site-btn-outline:hover::before {
+    width: 100%;
 }
 .scrolling-text-wrap {
     background: var(--main-color);
@@ -133,7 +157,10 @@
         font-size: 26px;
         line-height: 1.2;
     }
-
+    .modaltext p{
+        font-size: 14px;
+    }
+    
     .site-section-title {
         font-size: 24px;
         line-height: 1.1;

@@ -6,9 +6,10 @@ import Header from './Components/Nav';
 import Footer from './Components/Footer';
 import Webtheme from './Components/Webtheme';
 
-
-
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// ..
+AOS.init();
 
 function App() {
 

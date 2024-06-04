@@ -1,4 +1,6 @@
-import { FaPaintbrush, FaDesktop,  FaMobileScreenButton, FaGoogle } from "react-icons/fa6";
+import { FaPaintbrush, FaDesktop,  FaMobileScreenButton, FaGoogle, FaTablet } from "react-icons/fa6";
+import { FcSmartphoneTablet } from "react-icons/fc";
+
 import { FaCogs } from "react-icons/fa";
 
 
@@ -117,7 +119,7 @@ export const Icons = {
         },
         {
             id: 3,
-            icons: FaGoogle,
+            icons: FcSmartphoneTablet,
             title: "Responsive Design",
             background:"servicebox8",
             para:"Crafting responsive designs for your website, guaranteeing accessibility and engagement across all device."
@@ -326,6 +328,23 @@ export const Icons = {
             path: 'images/pic6.png',
         }
     
+    ],
+    ProcessText:[
+        {
+            id:"01",
+            text:"Click the button below to get my contact details and provide me with details about your business, project goals, timeline, etc."
+
+        },
+        {
+            id:"02",
+            text:"Then we'll schedule a quick zoom call to discuss your project further, and potentially send a project proposal."
+
+        },
+        {
+            id:"03",
+            text:"Once you book, I'll start building your elevated brand, website, packaging, &amp; anything else you need!"
+
+        }
     ]
 
 };
