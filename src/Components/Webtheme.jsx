@@ -133,8 +133,8 @@ function Webtheme() {
                     <div className="row  justify-content-center gy-2 mb-3">
                         <div className="d-flex flex-column gap-2 justify-content-md-center justify-content-start align-items-md-center mb-3" data-aos="fade-up"
                             data-aos-duration="2000">
-                            <p className="site-subtitle-text">Technologies We Used</p>
-                            <h2 className="site-section-title">We will keep updated you with latest trands of tech markets</h2>
+                            <p className="site-subtitle-text">Technologies i Used</p>
+                            <h2 className="site-section-title">I will keep updated you with latest trands of tech markets</h2>
                         </div>
 
                         <Marquee className="my-2">
@@ -169,8 +169,8 @@ function Webtheme() {
                         <div className="d-flex flex-column gap-2 justify-content-center align-items-md-center " data-aos="fade-up"
                             data-aos-duration="2000">
 
-                            <p className="site-subtitle-text">Our Portfolio</p>
-                            <h2 className="site-section-title">Works that we done previously</h2>
+                            <p className="site-subtitle-text"> Portfolio</p>
+                            <h2 className="site-section-title">Works that I have done previously</h2>
                         </div>
                     </div>
 

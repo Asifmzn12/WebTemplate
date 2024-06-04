@@ -342,7 +342,7 @@ export const Icons = {
         },
         {
             id:"03",
-            text:"Once you book, I'll start building your elevated brand, website, packaging, &amp; anything else you need!"
+            text:"Once you book, I'll start building your elevated brand, website, packaging, & anything else you need!"
 
         }
     ]
