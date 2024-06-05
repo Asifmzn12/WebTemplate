@@ -327,31 +327,10 @@ background-color: var(--main-color);
   background-color: #ffc107 !important;
 }
 
-.servicesCard {
-    transition: transform 0.6s ease, box-shadow 0.6s ease;
-    perspective: 1000px; /* Enable 3D effect */
-}
-
-.card-body {
-    transition: transform 0.6s ease;
-}
-
-.servicebox1 {
-    transition: transform 0.6s ease;
-}
-
-.servicesCard:hover {
-    transform: rotateY(180deg); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
-}
-
-.servicesCard:hover .card-body {
-    transform: scale(1.05); 
-}
 
 
 .servicebox1 svg {
-    animation: scale-and-vibrate 1s infinite;
+    animation: scale-and-vibrate 3s infinite;
 }
 
 @keyframes scale-and-vibrate {
@@ -372,7 +351,3 @@ background-color: var(--main-color);
     }
 }
 
-.servicesCard:hover .servicebox1, 
-.servicesCard:hover .card-text {
-    transform: none;
-}
