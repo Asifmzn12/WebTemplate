@@ -108,7 +108,7 @@ function Webtheme() {
                             <h2 className="site-section-title">Innovative Frontend Solutions &amp; Development Services</h2>
                         </div>
                         {Icons.ServicesIcons.map((Data) => (
-                            <div key={Data.id} className="col-md-6 col-lg-4 col-xl-4 py-2 " data-aos="fade-down"
+                            <div key={Data.id} className="col-md-6 col-lg-4 col-xl-4 py-2 d-flex" data-aos="fade-down"
                                 data-aos-duration="2300">
                                 <Card className="servicesCard shadow py-2" >
                                     <Card.Body className="d-flex flex-column gap-2 aling-items-center justify-content-center">
