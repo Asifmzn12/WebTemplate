@@ -342,7 +342,7 @@ function Webtheme() {
 
 
             <div className='copywrite text-center  py-4'>
-                <h4 className="m-0">© 2023 All rights reserved ! Made  by Asif Ali</h4>
+                <h4 className="m-0">© 2024 All rights reserved ! Made  by Asif Ali</h4>
 
             </div>
 
