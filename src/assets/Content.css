@@ -327,25 +327,22 @@ background-color: var(--main-color);
   background-color: #ffc107 !important;
 }
 .cardimg svg {
-    animation: ring-animation 1s infinite;
+    animation:scale-and-vibrate 3s infinite;
    }
-@keyframes ring-animation {
+@keyframes scale-and-vibrate {
     0% {
         transform: scale(0.9) translate(0, 0);
     }
-    20% {
-        transform: scale(1) translate(2px, -2px);
+    25% {
+        transform: scale(0.95) translate(-1px, 1px);
     }
-    40% {
-        transform: scale(0.9) translate(-2px, 2px);
+    50% {
+        transform: scale(1) translate(1px, -1px);
     }
-    60% {
-        transform: scale(1) translate(2px, 2px);
-    }
-    80% {
-        transform: scale(0.9) translate(-2px, -2px);
+    75% {
+        transform: scale(0.95) translate(-1px, -1px);
     }
     100% {
-        transform: scale(0.9) translate(0, 0);
+        transform: scale(0.9) translate(1px, 1px);
     }
 }
