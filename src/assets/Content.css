@@ -326,3 +326,17 @@ background-color: var(--main-color);
 .swiper-pagination-bullet {
   background-color: #ffc107 !important;
 }
+.cardimg svg {
+    animation: scale-animation 3s infinite;
+   }
+@keyframes scale-animation {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
