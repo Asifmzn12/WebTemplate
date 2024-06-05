@@ -175,43 +175,43 @@ border-bottom: 1px solid rebeccapurple;
 
 }
 .servicebox1{
-  background-color: #2e6611;
+  background-color: var(--main-color);
   color: #ffff;
 }
 
 .servicebox2{
-  background-color: #e7aa94;
-  color: #000;
+background-color: var(--main-color);
+  color: #ffff;
 }
 
 .servicebox3{
-  background-color: #a2a96a;
-  color: #000;
+background-color: var(--main-color);
+  color: #ffff;
 }
 
 .servicebox4{
-  background-color: #eb93a6;
-  color: #000;
+background-color: var(--main-color);
+  color: #ffff;
 }
 
 .servicebox5{
-  background-color: #6db1e8;
-  color: #000;
+ background-color: var(--main-color);
+  color: #ffff;
 }
 
 .servicebox6{
-  background-color: #e1e171;
-  color: #000;
+background-color: var(--main-color);
+  color: #ffff;
 }
 
 .servicebox7{
-  background-color: #d9bdbd;
-  color: #000;
+background-color: var(--main-color);
+  color: #ffff;
 }
 
 .servicebox8{
-  background-color: #b8d9a7;
-  color: #000;
+background-color: var(--main-color);
+  color: #ffff;
 }
 .site-section {
   background: var(--secondary-color) !important;
