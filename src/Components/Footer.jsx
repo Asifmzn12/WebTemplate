@@ -46,7 +46,7 @@ function Footer() {
             </div >
 
             <div className='copywrite text-center bg-footergray py-3'>
-                <h4>© 2023 All rights reserved ! Made  by Asif Ali</h4>
+                <h4>© 2024 All rights reserved ! Made  by Asif Ali</h4>
 
             </div>
         </div>
